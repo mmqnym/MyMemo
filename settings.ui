@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Settings</class>
+ <widget class="QDialog" name="Settings">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>400</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>400</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="baseSize">
+   <size>
+    <width>400</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="ok">
+   <property name="geometry">
+    <rect>
+     <x>165</x>
+     <y>220</y>
+     <width>70</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>70</width>
+     <height>70</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>70</width>
+     <height>70</height>
+    </size>
+   </property>
+   <property name="baseSize">
+    <size>
+     <width>70</width>
+     <height>70</height>
+    </size>
+   </property>
+   <property name="toolTip">
+    <string>確認</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="_src.qrc">
+     <normaloff>:/new/prefix1/gp_source/tick.png</normaloff>:/new/prefix1/gp_source/tick.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>65</width>
+     <height>65</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>116</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>111</width>
+     <height>41</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>111</width>
+     <height>41</height>
+    </size>
+   </property>
+   <property name="baseSize">
+    <size>
+     <width>111</width>
+     <height>41</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;清松手寫體2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>鈴聲設定</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>150</y>
+     <width>321</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_2">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>60</y>
+     <width>321</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>25</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>111</width>
+     <height>41</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>111</width>
+     <height>41</height>
+    </size>
+   </property>
+   <property name="baseSize">
+    <size>
+     <width>111</width>
+     <height>41</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;清松手寫體2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>效能設定</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="alert1">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>72</y>
+     <width>141</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>141</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>141</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="baseSize">
+    <size>
+     <width>141</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(170, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>※須重啟變更設定</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="setting1">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>31</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>211</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>211</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="baseSize">
+    <size>
+     <width>211</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <item>
+    <property name="text">
+     <string>高敏感度</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>中敏感度</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>低敏感度</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="setting2">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>121</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>211</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>211</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="baseSize">
+    <size>
+     <width>211</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <item>
+    <property name="text">
+     <string>漫步輕靈</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>悠揚夜聲</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>柔聲琴話</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>重琴音</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>啟程</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>琳琳琳琳</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>想見你</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>忽然之間</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>愛上</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>全世界最好的你</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>迴響</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>迴響2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>靜音</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>-4</x>
+     <y>-9</y>
+     <width>421</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>421</width>
+     <height>311</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>421</width>
+     <height>311</height>
+    </size>
+   </property>
+   <property name="baseSize">
+    <size>
+     <width>421</width>
+     <height>311</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 237, 194, 70%);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="alert2">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>72</y>
+     <width>300</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>300</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>300</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="baseSize">
+    <size>
+     <width>300</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(170, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>※此設定將大幅降低提醒敏感度，可能造成提醒失效!</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line_3">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>-10</y>
+     <width>20</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_4">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>-10</y>
+     <width>20</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_5">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>289</y>
+     <width>421</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_6">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>-10</y>
+     <width>421</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <zorder>label_4</zorder>
+  <zorder>ok</zorder>
+  <zorder>label</zorder>
+  <zorder>line</zorder>
+  <zorder>line_2</zorder>
+  <zorder>label_2</zorder>
+  <zorder>alert1</zorder>
+  <zorder>setting1</zorder>
+  <zorder>setting2</zorder>
+  <zorder>alert2</zorder>
+  <zorder>line_3</zorder>
+  <zorder>line_4</zorder>
+  <zorder>line_5</zorder>
+  <zorder>line_6</zorder>
+ </widget>
+ <resources>
+  <include location="_src.qrc"/>
+ </resources>
+ <connections/>
+</ui>

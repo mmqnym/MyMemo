@@ -1,0 +1,54 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>gp_source/background.png</file>
+        <file>gp_source/board.png</file>
+        <file>gp_source/remove.gif</file>
+        <file>gp_source/lsAll.gif</file>
+        <file>gp_source/addThing.png</file>
+        <file>gp_source/deadline.png</file>
+        <file>gp_source/priority.png</file>
+        <file>gp_source/list.png</file>
+        <file>gp_source/renew.png</file>
+        <file>gp_source/bye.gif</file>
+        <file>gp_source/icon.png</file>
+        <file>gp_source/check.png</file>
+        <file>gp_source/close.png</file>
+        <file>gp_source/recycle.png</file>
+        <file>gp_source/close_2.png</file>
+        <file>gp_source/leave.png</file>
+        <file>gp_source/no.png</file>
+        <file>gp_source/search.png</file>
+        <file>gp_source/yes.png</file>
+        <file>gp_source/deleteAll.png</file>
+        <file>gp_source/extra_msg.png</file>
+        <file>gp_source/exit_extra.png</file>
+        <file>gp_source/write.png</file>
+        <file>gp_source/timeRemainder.png</file>
+        <file>media/alerm01.wav</file>
+        <file>media/alerm02.wav</file>
+        <file>gp_source/addCalendar.png</file>
+        <file>gp_source/newAdd.png</file>
+        <file>gp_source/newRemove.png</file>
+        <file>gp_source/settings.png</file>
+        <file>gp_source/settings.gif</file>
+        <file>gp_source/tick.png</file>
+        <file>media/alerm03.wav</file>
+        <file>media/alerm04.wav</file>
+        <file>media/alerm05.wav</file>
+        <file>gp_source/write.gif</file>
+        <file>media/alert_music.wav</file>
+        <file>media/alerm06.wav</file>
+        <file>media/alerm07.wav</file>
+        <file>media/alerm08.wav</file>
+        <file>media/alerm09.wav</file>
+        <file>media/alerm10.wav</file>
+        <file>media/alerm11.wav</file>
+        <file>media/alerm12.wav</file>
+        <file>gp_source/bell.png</file>
+    </qresource>
+    <qresource prefix="/new/prefix2">
+        <file>calendar.qss</file>
+        <file>gp_source/next.png</file>
+        <file>gp_source/previous.png</file>
+    </qresource>
+</RCC>
